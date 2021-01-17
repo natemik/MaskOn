@@ -4,18 +4,17 @@ import tweet_set
 
 def make_post(imageloc):
     title = tweet_set.get_callout()
-    markdown = f"""
-        ---
-        layout: post
-        title: "{title}"
-        ---
+    markdown = f"""---
+layout: post
+title: "{title}"
+---
 
-        # Superhero wears mask, saves lives
+# Superhero wears mask, saves lives
 
-        ![person wearing mask]({imageloc} "Test")
+![person wearing mask]({imageloc} "Test")
 
-        I hope you like it!
-        """
+I hope you like it!
+"""
     filename = "docs/_posts/" + str(datetime.now().strftime('%Y-%m-%d-%H-%M-%S')) + ".markdown"
     with open(filename, "xb") as newpost:
         newpost.write(markdown.encode('utf8'))

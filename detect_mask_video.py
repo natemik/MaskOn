@@ -15,6 +15,7 @@ import os
 import time
 import write_post
 from datetime import datetime
+import subprocess
 
 def detect_and_predict_mask(frame, faceNet, maskNet):
 	# grab the dimensions of the frame and then construct a blob
@@ -140,12 +141,11 @@ while True:
 				else:
 					if (time.time() - start) >= 3:
 						now = datetime.now()
-						filename = "docs/assets/" + str(datetime.now().strftime("%d%m%Y_%H%M%S")) + ".jpg"
-						cv2.imwrite(filename, frame)
+						filename = "/assets/" + str(datetime.now().strftime("%d%m%Y_%H%M%S")) + ".jpg"
+						cv2.imwrite("docs" + filename, frame)
 						write_post.make_post(filename)
 						saved = True
-						time.sleep(2.0)
-						os.system("./image_push.bat")
+						os.system(".\\image_push.bat")
 			else:
 				init = True
 				start = 0

@@ -1,0 +1,47 @@
+[main b62f356] Added new post
+ 4 files changed, 24 insertions(+)
+ create mode 100644 docs/_posts/2021-01-17-02-04-31.markdown
+ create mode 100644 docs/_posts/2021-01-17-02-10-07.markdown
+ create mode 100644 docs/assets/17012021_020431.jpg
+ create mode 100644 docs/assets/17012021_021007.jpg
+[main fd0aea3] Added new post
+ 8 files changed, 40 insertions(+)
+ create mode 100644 docs/_posts/2021-01-17-02-14-00.markdown
+ create mode 100644 docs/_posts/2021-01-17-02-15-12.markdown
+ create mode 100644 docs/_posts/2021-01-17-02-18-23.markdown
+ create mode 100644 docs/_posts/2021-01-17-02-19-14.markdown
+ create mode 100644 docs/assets/17012021_021400.jpg
+ create mode 100644 docs/assets/17012021_021512.jpg
+ create mode 100644 docs/assets/17012021_021823.jpg
+ create mode 100644 docs/assets/17012021_021914.jpg
+[main 25e686d] Added new post
+ 2 files changed, 10 insertions(+)
+ create mode 100644 docs/_posts/2021-01-17-02-22-50.markdown
+ create mode 100644 docs/assets/17012021_022250.jpg
+[main 811dd59] Added new post
+ 17 files changed, 1 insertion(+), 166 deletions(-)
+ delete mode 100644 docs/_posts/2021-01-16-test.md
+ delete mode 100644 docs/_posts/2021-01-16-welcome-to-jekyll.markdown
+ delete mode 100644 docs/_posts/2021-01-17-01-09-49.markdown
+ delete mode 100644 docs/_posts/2021-01-17-01-17-51.markdown
+ delete mode 100644 docs/_posts/2021-01-17-01-36-35.markdown
+ delete mode 100644 docs/_posts/2021-01-17-01-39-27.markdown
+ delete mode 100644 docs/_posts/2021-01-17-01-45-11.markdown
+ delete mode 100644 docs/_posts/2021-01-17-01-50-13.markdown
+ delete mode 100644 docs/_posts/2021-01-17-01-51-46.markdown
+ delete mode 100644 docs/_posts/2021-01-17-01-58-46.markdown
+ delete mode 100644 docs/_posts/2021-01-17-02-04-31.markdown
+ delete mode 100644 docs/_posts/2021-01-17-02-10-07.markdown
+ delete mode 100644 docs/_posts/2021-01-17-02-14-00.markdown
+ delete mode 100644 docs/_posts/2021-01-17-02-15-12.markdown
+ delete mode 100644 docs/_posts/2021-01-17-02-22-50.markdown
+ rename docs/_posts/{2021-01-17-02-19-14.markdown => 2021-01-17-02-26-16.markdown} (68%)
+ create mode 100644 docs/assets/17012021_022616.jpg
+[main 5bacabc] Added new post
+ 2 files changed, 10 insertions(+)
+ create mode 100644 docs/_posts/2021-01-17-02-29-22.markdown
+ create mode 100644 docs/assets/17012021_022922.jpg
+[main 522baa1] Added new post
+ 2 files changed, 10 insertions(+)
+ create mode 100644 docs/_posts/2021-01-17-08-48-21.markdown
+ create mode 100644 docs/assets/17012021_084821.jpg
