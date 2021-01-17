@@ -1,0 +1,12 @@
+
+        ---
+        layout: post
+        title: "Looking great in that fantastic mask!"
+        ---
+
+        # Superhero wears mask, saves lives
+
+        ![person wearing mask](docs/assets/17012021_020431.jpg "Test")
+
+        I hope you like it!
+        
