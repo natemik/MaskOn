@@ -144,6 +144,7 @@ while True:
 						cv2.imwrite(filename, frame)
 						write_post.make_post(filename)
 						saved = True
+						os.system("./image_push.bat")
 			else:
 				init = True
 				start = 0
