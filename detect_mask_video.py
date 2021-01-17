@@ -78,7 +78,7 @@ def detect_and_predict_mask(frame, faceNet, maskNet):
 	# locations
 	return (locs, preds)
 
-saved = False
+saved = 0
 start = 0
 init = True
 
@@ -133,7 +133,7 @@ while True:
 		label = "Mask" if mask > withoutMask else "No Mask"
 		color = (0, 255, 0) if label == "Mask" else (0, 0, 255)
 
-		if saved == False:
+		if time.time() > saved + 20: # Has been more than 20 seconds.
 			if mask > withoutMask:
 				if init:
 					start = time.time()
@@ -144,7 +144,7 @@ while True:
 						filename = "/assets/" + str(datetime.now().strftime("%d%m%Y_%H%M%S")) + ".jpg"
 						cv2.imwrite("docs" + filename, frame)
 						write_post.make_post("/MaskOn" + filename)
-						saved = True
+						saved = time.time()
 						os.system(".\\image_push.bat")
 			else:
 				init = True
