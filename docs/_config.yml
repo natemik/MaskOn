@@ -20,8 +20,8 @@
 
 title: Mask On Hall of Fame
 description: >- # this means to ignore newlines until "baseurl:"
-  MaskOn would like to congratulate all individuals who have been dutifulling wearing their
-  masks as recommended by public health Canada! 👍
+  MaskOn would like to congratulate all individuals who have been dutifully wearing their
+  masks as recommended by Public Health Canada! 👍
 baseurl: MaskOn/ # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
