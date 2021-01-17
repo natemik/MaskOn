@@ -16,6 +16,7 @@ random.shuffle(msgs)
 
 
 def get_callout():
+    global last_chosen
     if last_chosen < len(msgs):
         last_chosen += 1
         return msgs[last_chosen-1]

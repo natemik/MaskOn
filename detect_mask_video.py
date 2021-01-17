@@ -13,6 +13,7 @@ import time
 import cv2
 import os
 import time
+import write_post
 from datetime import datetime
 
 def detect_and_predict_mask(frame, faceNet, maskNet):
@@ -105,7 +106,7 @@ maskNet = load_model(args["model"])
 
 # initialize the video stream and allow the camera sensor to warm up
 print("[INFO] starting video stream...")
-vs = VideoStream(src=0).start()
+vs = VideoStream(src=1).start()
 time.sleep(2.0)
 
 # loop over the frames from the video stream
@@ -139,8 +140,9 @@ while True:
 				else:
 					if (time.time() - start) >= 3:
 						now = datetime.now()
-						filename = "success_images/" + str(datetime.now().strftime("%d%m%Y_%H%M%S")) + ".jpg"
+						filename = "myblog/assets/" + str(datetime.now().strftime("%d%m%Y_%H%M%S")) + ".jpg"
 						cv2.imwrite(filename, frame)
+						write_post.make_post(filename)
 						saved = True
 			else:
 				init = True
