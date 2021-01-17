@@ -4,15 +4,20 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+# Encouraging People Wearing Masks
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This project is designed to encourage wearing a mask, it detects if a user is wearing a masks, and uploads there picture with an encouraging message if they are.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+# Usage
 
+Dependencies for facial recognition:
+  - python version 3.5-3.8
+  - `pip install tensorflow`
+  - `pip install opencv-python`
+  - `pip install imutils`
 
-[jekyll-organization]: https://github.com/jekyll
+# Citations
+
+The mask detecting machine learning machine was developed by Adrian Rosebrock \
+Profile: https://www.pyimagesearch.com/author/adrian/ \
+Code: https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/
