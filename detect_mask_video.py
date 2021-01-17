@@ -143,7 +143,7 @@ while True:
 						now = datetime.now()
 						filename = "/assets/" + str(datetime.now().strftime("%d%m%Y_%H%M%S")) + ".jpg"
 						cv2.imwrite("docs" + filename, frame)
-						write_post.make_post(filename)
+						write_post.make_post("/MaskOn" + filename)
 						saved = True
 						os.system(".\\image_push.bat")
 			else:
