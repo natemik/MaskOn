@@ -9,3 +9,9 @@ Dependencies for facial recognition:
   - `pip install tensorflow`
   - `pip install opencv-python`
   - `pip install imutils`
+
+# Citations
+
+The mask detecting machine learning machine was developed by Adrian Rosebrock \
+Profile: https://www.pyimagesearch.com/author/adrian/ \
+Code: https://www.pyimagesearch.com/2020/05/04/covid-19-face-mask-detector-with-opencv-keras-tensorflow-and-deep-learning/
