@@ -36,3 +36,7 @@ warning: LF will be replaced by CRLF in docs/_posts/2021-01-17-08-48-21.markdown
 The file will have its original line endings in your working directory
 To https://github.com/natemik/MaskOn.git
    5bacabc..522baa1  main -> main
+warning: LF will be replaced by CRLF in docs/_posts/2021-01-17-11-05-26.markdown.
+The file will have its original line endings in your working directory
+To https://github.com/natemik/MaskOn.git
+   cdc6bdd..5b5dd15  gh-pages -> gh-pages
