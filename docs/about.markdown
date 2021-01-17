@@ -10,7 +10,7 @@ This project is designed to encourage wearing a mask. It detects if a user is we
 
 Wearing a mask is a simple way to reduce infection rates in your community. Be a hero today and wear a mask!
 
-## Authors
+# Authors
 
 - [Nathan Mikhail](https://github.com/natemik)
 
@@ -21,7 +21,7 @@ Wearing a mask is a simple way to reduce infection rates in your community. Be a
 - [Rowan Webster](https://github.com/rowanqwebster)
 
 
-## Usage
+# Usage
 
 Dependencies for facial recognition:
   - python version 3.5-3.8
@@ -29,7 +29,7 @@ Dependencies for facial recognition:
   - `pip install opencv-python`
   - `pip install imutils`
 
-## Citations
+# Citations
 
 The mask detecting machine learning machine was developed by Adrian Rosebrock \
 Profile: https://www.pyimagesearch.com/author/adrian/ \
