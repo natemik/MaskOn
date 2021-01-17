@@ -140,7 +140,7 @@ while True:
 				else:
 					if (time.time() - start) >= 3:
 						now = datetime.now()
-						filename = "myblog/assets/" + str(datetime.now().strftime("%d%m%Y_%H%M%S")) + ".jpg"
+						filename = "docs/assets/" + str(datetime.now().strftime("%d%m%Y_%H%M%S")) + ".jpg"
 						cv2.imwrite(filename, frame)
 						write_post.make_post(filename)
 						saved = True

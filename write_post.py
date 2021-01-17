@@ -16,7 +16,7 @@ def make_post(imageloc):
 
         I hope you like it!
         """
-    filename = "myblog/_posts/" + str(datetime.now().strftime('%Y-%m-%d-%H-%M-%S')) + ".markdown"
+    filename = "docs/_posts/" + str(datetime.now().strftime('%Y-%m-%d-%H-%M-%S')) + ".markdown"
     with open(filename, "x") as newpost:
         newpost.write(markdown)
 
